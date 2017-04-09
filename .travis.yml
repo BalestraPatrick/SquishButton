@@ -1,0 +1,12 @@
+language: objective-c
+cache: cocoapods
+podfile: Example/Podfile
+osx_image: xcode8.3
+
+before_install:
+- gem install cocoapods
+- gem install xcpretty
+- pod install --project-directory=Example
+
+script:
+- set -o pipefail && xcodebuild test -workspace Example/SquishButton.xcworkspace -scheme SquishButton-Example -destination 'platform=iOS Simulator,name=iPhone 7,OS=10.3' ONLY_ACTIVE_ARCH=NO | xcpretty
