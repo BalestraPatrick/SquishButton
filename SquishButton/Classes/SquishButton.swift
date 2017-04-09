@@ -1,27 +1,37 @@
+//
+//  SquishButton
+//  Released under the MIT license.
+//  http://github.com/BalestraPatrick/SquishButton
+//
+//  Created by Patrick Balestra on 04/08/2017.
+//  Copyright (c) 2017 Patrick Balestra. All rights reserved.
+//
+
 import UIKit
 
-@IBDesignable
-class SquishButton: UIButton {
+open class SquishButton: UIButton {
 
     // MARK: Public properties
 
-    var scaling = CGFloat(10)
+    /// The number of pixels to scale the inner rectangle.
+    open var scaling = CGFloat(10)
 
-    var borderWidth = CGFloat(2) {
+    /// The duration of the animation when the button is in the highlighted state.
+    open var animationDuration = 0.15
+
+    /// The color of the inner rectangle.
+    open var color = UIColor(red: 244.0/255.0, green: 51.0/255.0, blue: 50.0/255.0, alpha: 1.0)
+
+    /// The inset between the outer border and inner rectangle.
+    open var innerInset = CGFloat(5) {
         didSet {
-            setNeedsDisplay()
+            innerShape.path = UIBezierPath(roundedRect: bounds.insetBy(dx: innerInset, dy: innerInset), cornerRadius: bounds.height / 2).cgPath
         }
     }
 
-    var animationDuration = 0.15
-
-    var color = UIColor(red: 244.0/255.0, green: 51.0/255.0, blue: 50.0/255.0, alpha: 1.0)
-
-    var innerShape: CAShapeLayer!
-
     // MARK: Overriden properties
 
-    override var isHighlighted: Bool {
+    override open var isHighlighted: Bool {
         didSet {
             guard oldValue != isHighlighted else { return }
             animateHighlight()
@@ -30,42 +40,40 @@ class SquishButton: UIButton {
 
     // MARK: Private properties
 
+    private var innerShape: CAShapeLayer!
     private let scaleX = "scale.x"
     private let scaleY = "scale.y"
 
-    override func draw(_ rect: CGRect) {
-        let outerLine = UIBezierPath(roundedRect: bounds.insetBy(dx: borderWidth / 2, dy: borderWidth / 2), cornerRadius: bounds.height / 2)
-        outerLine.lineWidth = borderWidth
-        UIColor.white.setStroke()
-        outerLine.stroke()
-    }
+    // MARK: Public initializers
 
     override init(frame: CGRect) {
-
         super.init(frame: frame)
         setUp()
     }
 
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         setUp()
     }
 
     func setUp() {
-        // TODO: remove debug title
-        setTitle("HOLD TO RECORD", for: .normal)
         setTitleColor(.white, for: .normal)
         setTitleColor(.clear, for: .highlighted)
 
+        layer.cornerRadius = bounds.height / 2
+        layer.borderWidth = 2
+        layer.borderColor = UIColor.white.cgColor
+
         innerShape = CAShapeLayer()
         innerShape.frame = bounds
-        innerShape.path = UIBezierPath(roundedRect: bounds.insetBy(dx: 5, dy: 5), cornerRadius: bounds.height / 2).cgPath
+        innerShape.path = UIBezierPath(roundedRect: bounds.insetBy(dx: innerInset, dy: innerInset), cornerRadius: bounds.height / 2).cgPath
         innerShape.fillColor = color.cgColor
         layer.addSublayer(innerShape)
     }
 
     func animateHighlight() {
-        // Scale by the same absolute amount on each side for equal spacing between the outer border.
+
+        // Scale by the same absolute amount on each side for equal spacing with the outer border.
         let scalingFactorX = 1 - (scaling / innerShape.bounds.width)
         let scalingFactorY = 1 - (scaling / innerShape.bounds.height)
 

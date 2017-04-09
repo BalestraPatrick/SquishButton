@@ -9,14 +9,14 @@
 /* Begin PBXBuildFile section */
 		16650DB41B71DBD5CD28C05DA4610ADA /* Pods-SquishButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A3E7E7FAFDA2CF3EE5DDA2F6FECF8D66 /* Pods-SquishButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		40CD09B65D8EBF8C9F577EBBBD702423 /* Pods-SquishButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 88293195FEF800DE1C0ADC8999358F2F /* Pods-SquishButton_Example-dummy.m */; };
-		5F50269C80BC08C34879F48CFA6BF285 /* SquishButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDD44072BFFD1B691FEB3D5551E21B5 /* SquishButton.swift */; };
 		6317FA9F6EE8A814E0C47699B300F3E0 /* Pods-SquishButton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 37BD465B86AA8C20815C36075F2756C2 /* Pods-SquishButton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6347BCF3BB62C7E5705A46B4FD35232A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		85481E3425A30C59E5FE5B6440BB7922 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		8BB31C03458714739C870686C7123E0E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		C1C3187040E56D9061E129D1D6656D27 /* SquishButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C41835F6C9E312C8E4615CC1413BEBA7 /* SquishButton-dummy.m */; };
 		D528FFEDB0FF611AAEDE6967FE0EAA4A /* SquishButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EB6939AC9370C3FA6115AA7CD8DBF66 /* SquishButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DAA99D7D29E00616C801B7B6CAEBAC9B /* SquishButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C41835F6C9E312C8E4615CC1413BEBA7 /* SquishButton-dummy.m */; };
 		DB2EEFC0208EE33B54256E0565F5E61B /* Pods-SquishButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C2E01B1A2C36623E55243F4E466C17FB /* Pods-SquishButton_Tests-dummy.m */; };
+		F14035864F319D81A5446FDA96589E79 /* SquishButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD297EFDB4C2F62BBEA4C9FFDA323EAD /* SquishButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,32 +30,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		07C8373527EF48E45D8552296F7248E2 /* SquishButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SquishButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		07C8373527EF48E45D8552296F7248E2 /* SquishButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SquishButton.framework; path = SquishButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1179DC4EB04140016A0A7C7CFC1697EC /* SquishButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SquishButton-prefix.pch"; sourceTree = "<group>"; };
 		12C4CC94DF455C4C21C15F61AC5A2B0B /* Pods-SquishButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SquishButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		1F763C15C95DAF93CBD914F127C45657 /* Pods-SquishButton_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SquishButton_Example-resources.sh"; sourceTree = "<group>"; };
 		2CAC9D344B99187900CB7DF897B58110 /* SquishButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SquishButton.xcconfig; sourceTree = "<group>"; };
 		37BD465B86AA8C20815C36075F2756C2 /* Pods-SquishButton_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SquishButton_Example-umbrella.h"; sourceTree = "<group>"; };
-		3D5B13503C454ECC32E8D9E2C5821C53 /* Pods_SquishButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SquishButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3EDD44072BFFD1B691FEB3D5551E21B5 /* SquishButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SquishButton.swift; sourceTree = "<group>"; };
+		3D5B13503C454ECC32E8D9E2C5821C53 /* Pods_SquishButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SquishButton_Tests.framework; path = "Pods-SquishButton_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E1D1A843CC6D7AFBD1FF637CDC36564 /* Pods-SquishButton_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SquishButton_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4FC43AE1B3E3CF077DBD4E6C7D8ACD32 /* SquishButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SquishButton.modulemap; sourceTree = "<group>"; };
+		4FC43AE1B3E3CF077DBD4E6C7D8ACD32 /* SquishButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SquishButton.modulemap; sourceTree = "<group>"; };
 		5F77105126D2E88F2374ED5B7B1B9A1A /* Pods-SquishButton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SquishButton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		62083999CCE4C345DFE5BB80D012F374 /* Pods_SquishButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SquishButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		62083999CCE4C345DFE5BB80D012F374 /* Pods_SquishButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SquishButton_Example.framework; path = "Pods-SquishButton_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		788EEC2E91493D5F5A793EEE5F91AF65 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		833ECBDDBC1249F79529B01C3C9DF6A7 /* Pods-SquishButton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SquishButton_Example.modulemap"; sourceTree = "<group>"; };
+		833ECBDDBC1249F79529B01C3C9DF6A7 /* Pods-SquishButton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SquishButton_Example.modulemap"; sourceTree = "<group>"; };
 		8359CDA2DD8FE2C3AD80CF5A3842AA0C /* Pods-SquishButton_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SquishButton_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		88293195FEF800DE1C0ADC8999358F2F /* Pods-SquishButton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SquishButton_Example-dummy.m"; sourceTree = "<group>"; };
 		89CD61EE279A8EC5B509F204C661D532 /* Pods-SquishButton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SquishButton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9A19BFF8F67BB9B41DB9EF9D57599FCF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9EB6939AC9370C3FA6115AA7CD8DBF66 /* SquishButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SquishButton-umbrella.h"; sourceTree = "<group>"; };
 		9EF3D3E6E4CBEF2E38F970C0DF823BAE /* Pods-SquishButton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SquishButton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		A13E68379F5294495CBD15535241040F /* Pods-SquishButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SquishButton_Tests.modulemap"; sourceTree = "<group>"; };
+		A13E68379F5294495CBD15535241040F /* Pods-SquishButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SquishButton_Tests.modulemap"; sourceTree = "<group>"; };
 		A3E7E7FAFDA2CF3EE5DDA2F6FECF8D66 /* Pods-SquishButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SquishButton_Tests-umbrella.h"; sourceTree = "<group>"; };
 		C2E01B1A2C36623E55243F4E466C17FB /* Pods-SquishButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SquishButton_Tests-dummy.m"; sourceTree = "<group>"; };
 		C41835F6C9E312C8E4615CC1413BEBA7 /* SquishButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SquishButton-dummy.m"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CD297EFDB4C2F62BBEA4C9FFDA323EAD /* SquishButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SquishButton.swift; sourceTree = "<group>"; };
 		D6991FE5FB4DB64C2711CBD0340DECCB /* Pods-SquishButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SquishButton_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D840F0B1E1FA6DEC832FF0096FA55BD7 /* Pods-SquishButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SquishButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		DCE1FFFBCA9A98237DFC477C7A4AE34E /* Pods-SquishButton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SquishButton_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -120,6 +120,15 @@
 			path = "Target Support Files/Pods-SquishButton_Tests";
 			sourceTree = "<group>";
 		};
+		1FD7F309FC4203AA1BFFB296F48C1807 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CD297EFDB4C2F62BBEA4C9FFDA323EAD /* SquishButton.swift */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		38A5C40551F6F66BD44D386F15BE5905 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -174,17 +183,10 @@
 		676733246E5094A00304ADD54F0E3D62 /* SquishButton */ = {
 			isa = PBXGroup;
 			children = (
-				6E3E19A724CE817DA38F1D8029E84C9E /* Classes */,
+				1FD7F309FC4203AA1BFFB296F48C1807 /* Classes */,
 			);
+			name = SquishButton;
 			path = SquishButton;
-			sourceTree = "<group>";
-		};
-		6E3E19A724CE817DA38F1D8029E84C9E /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				3EDD44072BFFD1B691FEB3D5551E21B5 /* SquishButton.swift */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
@@ -291,7 +293,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C612366AB0D0425ACE92CF418F4B551A /* Build configuration list for PBXNativeTarget "SquishButton" */;
 			buildPhases = (
-				FDEAC2C8E0EFAC964690B415BC3A8894 /* Sources */,
+				59694A69AC7CCB6CDF3278CBA98D085E /* Sources */,
 				0AE956DE9D1F7173807A5BD146DA2778 /* Frameworks */,
 				6A71090F894A67C2B55E30DDBB5F257C /* Headers */,
 			);
@@ -341,20 +343,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		59694A69AC7CCB6CDF3278CBA98D085E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAA99D7D29E00616C801B7B6CAEBAC9B /* SquishButton-dummy.m in Sources */,
+				F14035864F319D81A5446FDA96589E79 /* SquishButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		693DF8069920824C0E493A251303BB75 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				40CD09B65D8EBF8C9F577EBBBD702423 /* Pods-SquishButton_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FDEAC2C8E0EFAC964690B415BC3A8894 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5F50269C80BC08C34879F48CFA6BF285 /* SquishButton.swift in Sources */,
-				C1C3187040E56D9061E129D1D6656D27 /* SquishButton-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

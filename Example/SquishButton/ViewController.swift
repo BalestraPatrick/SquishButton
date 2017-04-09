@@ -7,12 +7,14 @@
 //
 
 import UIKit
+import SquishButton
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var button: SquishButton!
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        
     }
 }
 

@@ -22,12 +22,13 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mLc-or-ffV" customClass="SquishButton" customModule="SquishButton">
-                                <rect key="frame" x="90" y="308" width="195" height="51"/>
+                                <rect key="frame" x="75" y="308" width="225" height="51"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="51" id="6gS-PB-p4F"/>
-                                    <constraint firstAttribute="width" constant="195" id="UzZ-JJ-dDu"/>
+                                    <constraint firstAttribute="width" constant="225" id="UzZ-JJ-dDu"/>
                                 </constraints>
-                                <state key="normal" title="Button"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
+                                <state key="normal" title="HOLD TO RECORD"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.25098039220000001" green="0.2666666667" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -36,6 +37,9 @@
                             <constraint firstItem="mLc-or-ffV" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="vKr-xH-IpD"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="button" destination="mLc-or-ffV" id="WPR-9R-v4T"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
