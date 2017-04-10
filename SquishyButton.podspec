@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'SquishyButton'
-  s.version          = '0.1.0'
+  s.version          = '0.1'
   s.summary          = 'A button that squishes when pressed. As seen in the Clips app.'
 
 # This description is used to generate tags and improve search results.
@@ -19,7 +19,7 @@ SquishyButton responds to touches with a simple and nice animation. Customize th
   s.source           = { :git => 'https://github.com/BalestraPatrick/SquishyButton.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/BalestraPatrick'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '8.3'
 
   s.source_files = 'SquishyButton/Classes/**/*'
 
