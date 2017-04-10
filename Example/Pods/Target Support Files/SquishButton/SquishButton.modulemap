@@ -1,6 +1,0 @@
-framework module SquishButton {
-  umbrella header "SquishButton-umbrella.h"
-
-  export *
-  module * { export * }
-}

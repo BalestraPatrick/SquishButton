@@ -1,0 +1,22 @@
+{
+  "name": "SquishyButton",
+  "version": "0.1.0",
+  "summary": "A short description of SquishyButton.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/BalestraPatrick/SquishyButton",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "BalestraPatrick": "me@patrickbalestra.com"
+  },
+  "source": {
+    "git": "https://github.com/BalestraPatrick/SquishyButton.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SquishyButton/Classes/**/*"
+}

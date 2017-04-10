@@ -1,6 +1,6 @@
 import UIKit
 import XCTest
-import SquishButton
+import SquishyButton
 
 class Tests: XCTestCase {
     
