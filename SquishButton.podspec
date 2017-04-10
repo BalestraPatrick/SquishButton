@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = 'SquishyButton'
+  s.name             = 'SquishButton'
   s.version          = '0.1'
   s.summary          = 'A button that squishes when pressed. As seen in the Clips app.'
 
@@ -10,18 +10,18 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-SquishyButton responds to touches with a simple and nice animation. Customize the animation behavior and the button style as you wish.
+SquishButton responds to touches with a simple and nice animation. Customize the animation behavior and the button style as you wish.
                        DESC
 
-  s.homepage         = 'https://github.com/BalestraPatrick/SquishyButton'
+  s.homepage         = 'https://github.com/BalestraPatrick/SquishButton'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'BalestraPatrick' => 'me@patrickbalestra.com' }
-  s.source           = { :git => 'https://github.com/BalestraPatrick/SquishyButton.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/BalestraPatrick/SquishButton.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/BalestraPatrick'
 
   s.ios.deployment_target = '8.3'
 
-  s.source_files = 'SquishyButton/Classes/**/*'
+  s.source_files = 'SquishButton/Classes/**/*'
 
   # s.resource_bundles = {
   #   'SquishyButton' => ['SquishyButton/Assets/*.png']
