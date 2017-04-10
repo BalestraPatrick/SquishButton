@@ -1,9 +1,9 @@
 use_frameworks!
 
-target 'SquishyButton_Example' do
-  pod 'SquishyButton', :path => '../'
+target 'SquishButton_Example' do
+  pod 'SquishButton', :path => '../'
 
-  target 'SquishyButton_Tests' do
+  target 'SquishButton_Tests' do
     inherit! :search_paths
 
     
