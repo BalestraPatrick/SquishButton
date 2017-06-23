@@ -542,10 +542,7 @@
 			baseConfigurationReference = 0E1F7DFBF515BB878E990B9D /* Pods-SquishButton_Tests.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 2EZDW5DVTJ;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -564,10 +561,7 @@
 			baseConfigurationReference = 04BA459BA192EBA7569A1C56 /* Pods-SquishButton_Tests.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 2EZDW5DVTJ;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
