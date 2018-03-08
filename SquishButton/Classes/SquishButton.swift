@@ -38,6 +38,12 @@ open class SquishButton: UIButton {
         }
     }
 
+    open override var frame: CGRect {
+        didSet {
+            setUp()
+        }
+    }
+
     // MARK: Private properties
 
     private var innerShape: CAShapeLayer!
@@ -46,7 +52,12 @@ open class SquishButton: UIButton {
 
     // MARK: Public initializers
 
-    override init(frame: CGRect) {
+    init() {
+        super.init(frame: .zero)
+        setUp()
+    }
+
+    override public init(frame: CGRect) {
         super.init(frame: frame)
         setUp()
     }

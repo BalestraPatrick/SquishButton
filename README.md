@@ -43,7 +43,9 @@ open var innerInset = CGFloat(5)
 ```
 
 ## Requirements
-iOS 8.3 and Swift 3.1. 
+iOS 8.3 and Swift 3.2.
+
+If you are using Swift 4, please use the [swift4 branch](https://github.com/BalestraPatrick/SquishButton/tree/swift4).
 
 ## Installation
 
