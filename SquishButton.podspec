@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'SquishButton'
-  s.version          = '0.1'
+  s.version          = '0.2'
   s.summary          = 'A button that squishes when pressed. As seen in the Clips app.'
 
 # This description is used to generate tags and improve search results.
